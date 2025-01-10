@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
-LABEL maintener="Ilham Kurniawan"
-LABEL email="ilham@mail.dev"
+LABEL maintener="Nurlias"
+LABEL email="nurliasfy1104@gmail.com"
 
 RUN apt update && apt install -y apache2
 RUN mkdir -p /var/www/html
